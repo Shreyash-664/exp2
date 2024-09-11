@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <img src="data:image/png;base64,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" alt="Company Logo" class="logo">
+            <h1>Urban Company</h1>
+            <nav class="navbar">
+                <a href="#about">About Us</a>
+                <a href="#services">Services</a>
+                <a href="#team">Our Team</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- About Us Section -->
+        <section id="about" class="profile-section">
+            <h2>About Us</h2>
+            Urban Company is a technology platform offering a variety of services at home. Customers use our platform to book services such as beauty treatments, haircuts, massage therapy, cleaning, plumbing, carpentry, appliance repair, painting etc. These services are delivered in the comfort of their home and at a time of their choosing. We promise our customers a high quality, standardised and reliable service experience. To fulfill this promise, we work closely with our hand-picked service partners, enabling them with technology, training, products, tools, financing, insurance and brand, helping them succeed and deliver on this promise.
+Our Vision: Empower millions of professionals worldwide to deliver services at home like never experienced before
+ 
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="profile-section">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Repair & Service </li>
+                <li>Plumbing</li>
+                <li>Electrican</li>
+                <li>Painting</li>
+            </ul>
+        </section>
+
+        <!-- Our Team Section -->
+        <section id="team" class="profile-section">
+            <h2>Meet Our Team</h2>
+            <div class="team-member">
+                <img src="https://res.cloudinary.com/urbanclap/image/upload/v1500957301/web-assets/about-page/abhiraj.jpg" alt="Team Member 1" class="team-image">
+                <h3>Abhiraj Bhal</h3>
+                <p>CEO & Co-founder, Urban Company</p>
+          
+            </div>
+            <div class="team-member">
+                <img src="https://res.cloudinary.com/urbanclap/image/upload/images/growth/home-screen/1698652667304-d98242.jpeg" alt="Team Member 2" class="team-image">
+                <h3>Raghav Chandra</h3>
+                <p>CPTO & Co-founder, Urban Company</p>
+            </div>
+            <!-- More team members... -->
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="profile-section">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Urban Company | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+</body>
+</html>
